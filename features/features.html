@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    
+<head>
+    
+    <!--'Viewport' tag is added for accessibility-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--javascript 'mainMenu' is to create a responsive menu to the user's screen size-->
+    <title>CP2077 - Features</title>
+    <script type="text/javascript" src="../scripts/mainMenu.js"></script>
+    
+    <!--Seperate .css files for main and subpages simply for readability
+    other .css for accessibility such as print and select screen sizes-->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/subpage.css">
+    <link rel="stylesheet" media="screen" href="../styles/media.css">
+    <link rel="stylesheet" media="print" href="../styles/print.css">
+    
+</head>
+    
+    
+<!--The body represents the displayed content of the site-->
+<body>
+
+    
+    <!--The lines below are meant to notify the user about the site they're on-->
+    <header>
+        <h1>CYBERPUNK 2077
+            <section>This page is dedicated to informing
+                <br> YOU on all things CYBERPUNK.
+                <br> SCROLL BELOW for the hottest topics!
+            </section>
+        </h1>
+    </header>
+    
+    
+    <!--The main menu is responsize and is to let the user navigate through select pages-->
+    <nav class="mainMenu" id="mainMenuId">
+            
+        <a href="../index.html">HOME</a>
+        <a href="../keanuReeves/keanuReeves.html">KEANU REEVES</a>
+        <a href="../whatWeKnow/whatWeKnow.html">WHAT WE KNOW</a>
+            
+        <a href="../development/development.html" class="active">DEVELOPMENT</a>
+        <a href="../community/community.html">COMMUNITY</a>
+        <a href="../deals/deals.html">DEALS</a>
+    
+        <a href="javascript:void(0);" class="icon" onclick="menuResponsive()">=</a>
+    
+    </nav>
+        
+    
+    <!--'bread crumbs are a secondary navigation method to allow the user to map their
+    position in the site-->
+    <nav class="breadCrumbs">
+            
+        <a href="../index.html">Home ></a>
+        <a href="../development/development.html">Development ></a>
+        <a href="features.html">Features</a>
+    </nav>
+    
+    
+    <!--The side navigation is to let the user switch between the connected development pages seamlessly-->
+    <nav id="sidenav">
+        <a href="../development/development.html" id="buttonOne">Development</a>
+        <a href="../cdProjektRed/cdProjektRed.html" id="buttonTwo">CDProjektRed</a>
+    </nav>
+
+    
+   <main>
+        <article class="row">    
+        <div class="column" id="article">
+            
+            <h2>Features</h2>
+
+                    
+            <h3>Introduction</h3>
+                <p> 
+                   Ray-tracing in video games is enabled by NVIDIA's most recent graphics card series RTX. Ray-tracing is essentially an improvement to a game's light rendering algorithm to be more realistic regarding the angles of the user's perspective. Only a handful of games claim to implement it but even fewer are actively implementing ray-tracing today. Cyberpunk 2077 will be a great system to implement ray-tracing with the active lights of the dystopian technological advanced future. 
+                </p>
+                <br>
+                    
+                    
+                <h3>So What?</h3>
+                <p> 
+                    Ray-Tracing implements a new workload in Boundary Volume Hierarchy Setup(BVHS), Ray/Triangle Intersection and denoising. BVHS is the data-structure that implements ray-tracing,  Ray/Triangle Intersection determines whether a light vector intersects resulting in reflections or shadows and the image produced can be incomplete so the denoising will fill the holes of data.  These are new implementations that assist with the points below.
+                </p>
+                    
+                <ul>
+                       
+                    <li>
+                        Shadows in ray-tracing are rendered by determining whether the vectors from light sources intersect in-game geometry. This operation can vary in workload depending on whether the frame of a game is in a dark location with many light sources. Shadows previously were more general as the technology wasn't able to calculate the many vectors of lights interacting with shapes and their results.
+                    </li>
+                       
+                    <li>
+                        The biggest improvements would be reflections as they were again more general and never really clear in image direction or rendered properly. This was improved by increasing rays to reflective areas such as puddles, cars, glass an actual realistic image in for example a car's hood. Previously, reflection was sometimes non-existent.
+                    </li>
+                    
+                    <li>
+                        Global illumination is a technique that RTX brings new to a computer graphics which that witch every pixel in the frame has a ray vector positioned from a light source like the sun creating a more accurate representation of shadows and reflections. This technology was never implemented before as anything that could fit inside a desktop could render that many light rays.
+                    </li>
+                    
+                    <li>
+                        RTX graphic cards contain special cores called RT cores and Tensor cores. RT cores are specialized to render rays mentioned above greatly decreasing frame rendering time from other graphics cards. Tensor cores are specialized cores to take fewer pixels from a frame but still output a great result through proper sampling greatly decreasing frame time.
+                    </li>
+
+                </ul>
+                    
+                    
+                <h3>My Opinion</h3>
+                
+                <iframe width=40% height=30% src="https://www.youtube.com/embed/476N4KX8shA" frameborder="0" align="right" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+                <p>
+                    Implementing ray-tracing is a great way to continue the Cyberpunk 2077's theme of the future. I could only imagine how all the light of the various technologies look. I am also excited to hear that RTX special cores increase frame rate. You can learn more in the video.
+                </p>
+
+           
+            
+        </div>
+        </article>
+    </main>
+        
+    
+    <!--The footer is an entry to notify the user on basic details about the page-->
+    <footer>
+        
+        Last Updated: December 4, 2019 at 23:55 by Jadd || Article/Image References
+        <a href="../references/references.html">HERE</a>
+        <a href="#top" id="toTop">Back to Top?</a>
+    </footer>
+
+    
+</body>
+</html>

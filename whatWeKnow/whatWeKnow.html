@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    
+<head>
+    
+    <!--'Viewport' tag is added for accessibility-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--javascript 'mainMenu' is to create a responsive menu to the user's screen size-->
+    <title>CP2077 - WHATWEKNOW</title>
+    <script type="text/javascript" src="../scripts/mainMenu.js"></script>
+    
+    <!--Seperate .css files for main and subpages simply for readability
+    other .css for accessibility such as print and select screen sizes-->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/subpage.css">
+    <link rel="stylesheet" media="screen" href="../styles/media.css">
+    <link rel="stylesheet" media="print" href="../styles/print.css">
+    
+</head>
+    
+<!--The body represents the displayed content of the site-->  
+<body>
+    
+    <!--The lines below are meant to notify the user about the site they're on-->
+    <header>
+        <h1>CYBERPUNK 2077
+            <section>This page is dedicated to informing
+                <br> YOU on all things CYBERPUNK.
+                <br> SCROLL BELOW for the hottest topics!
+            </section>
+        </h1>
+    </header>
+        
+    
+    <!--The main menu is responsize and is to let the user navigate through select pages-->
+    <nav class="mainMenu" id="mainMenuId">
+            
+        <a href="../index.html">HOME</a>
+        <a href="../keanuReeves/keanuReeves.html">KEANU REEVES</a>
+        <a href="../whatWeKnow/whatWeKnow.html" class="active">WHAT WE KNOW</a>
+            
+        <a href="../development/development.html">DEVELOPMENT</a>
+        <a href="../community/community.html">COMMUNITY</a>
+        <a href="../deals/deals.html">DEALS</a>
+    
+        <a href="javascript:void(0);" class="icon" onclick="menuResponsive()">=</a>
+    
+    </nav>
+        
+    
+    <!--'bread crumbs are a secondary navigation method to allow the user to map their
+    position in the site-->
+    <nav class="breadCrumbs">
+            
+        <a href="../index.html">Home ></a>
+        <a href="whatWeKnow.html">What We Know</a>
+    </nav>
+        
+    
+    <main>
+        
+        <!--This section gives the user the context of this page and its portal to other pages-->
+        <article class="column" id="soloArticle">
+            <h2>What We Know</h2>
+            
+            
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;What are the most important aspects of a good video game: the storyline and gameplay. The storyline is meant to entertain the player with emotions like a movie. Without a good storyline, it feels like a game without meaning or cause. The gameplay is what engages the player as somebody other than themself. Good gameplay simulates real-life but without the boundaries of reality. This page links to both of them, check them out to see if Cyberpunk 2077 interests you.
+            </p>
+            
+            <ul>      
+
+                <li> Storyline:
+                    <ul>      
+                        <li>Characters</li>
+                        <li>History</li>
+                    </ul>
+                </li>
+
+                <li>Gameplay:
+                    <ul>      
+                        <li>Mechanics</li>
+                        <li>Interactions</li>
+                    </ul>
+                </li>
+
+            </ul>            
+            
+        </article>
+        
+        <!--Portal-->
+        <nav class="row">
+            <a href="../storyline/storyline.html" class="column" id="story"><p><br>Story</p></a>
+
+            <a href="../gameplay/gameplay.html" class="column" id="gameplay"><p><br>Gameplay</p></a>
+        </nav>
+            
+    </main>
+    
+    
+    <!--The footer is an entry to notify the user on basic details about the page-->
+    <footer>
+        
+        Last Updated: December 4, 2019 at 23:55 by Jadd || Article/Image References
+        <a href="../references/references.html">HERE</a>
+        <a href="#top" id="toTop">Back to Top?</a>
+    </footer>
+    
+    
+</body>    
+</html>

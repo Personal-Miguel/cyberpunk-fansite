@@ -1,0 +1,244 @@
+/* I made a second CSS for subpages for organization*/
+
+/*A secdonary navigation to help the user*/
+.breadCrumbs {
+    
+    margin: -8px;
+    overflow: hidden;
+    
+    display: block;
+    padding: 20px 0px 0px 5px;
+    color: antiquewhite;
+    
+    text-align: left;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.breadCrumbs a {
+    
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/*article id is for articles that are the sole focus of the page therfore configured to big bigger*/
+#article {
+    
+    width: 10px;
+    color: antiquewhite;
+    font-family: "Calibri";
+    font-size: 100%;
+    
+    opacity: 1;
+    border-radius: 3px;
+    height: 100%;
+    
+    margin: 4% 10% 0% 10%;
+    padding: 0px 2% 5% 20px;
+    background-color: #444;
+    text-align: left;
+
+    
+}
+#article ul{font-size: 140%}
+#article:hover { transform: none; }
+
+#article p {
+    
+    display: inline;
+    border-radius: 0px;
+    padding-bottom: 0% 0 0 0;
+    
+    margin: 0% 0% 0% 0%;
+    max-width: 200%;
+    font-family: "Calibri";
+    
+    background-image: none;
+    text-align: left;
+}
+
+/*A seperate config for article that dont aren't the entire focus*/
+#soloArticle {
+    
+    color: antiquewhite;
+    font-family: "Calibri";
+    font-size: 200%;
+    
+    border-radius: 3px;
+    height: 480px;
+    padding: 0px 0px 0% 1%;
+    
+    background-color: #444;
+    margin: 5% 8% 0% 8%;
+    text-align: left;
+}
+
+#soloArticle:hover { transform: none; }
+
+#soloArticle p {
+    
+    margin: 0% 3% 0% 0%;
+    padding: 0px 0px 0% 1%;
+    font-size: 60%;
+    
+    font-family: "Calibri";
+    border-radius: 0px;
+    text-align: left;
+    
+    background-image: none; }
+
+li { margin: 2% 3% 0% 0%;font-size: 60%;}
+
+
+
+
+/*Side anv for page closely related for a seamless transition*/
+#sidenav a {
+    
+    position: fixed;
+    left: -100px;
+    transition: 0.3s;
+
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 20px;
+    color: antiquewhite;
+    border-radius: 0 5px 5px 0;
+}
+
+#sidenav a:hover { left: 0; }
+
+#buttonOne {
+    
+    border: 1px solid mediumorchid;
+    background-color: #444 ;
+    top: 23%;
+
+}
+
+#buttonTwo {
+    
+    border: 1px solid skyblue;
+    background-color: #444;
+    top: 30%;
+}
+
+
+#gameplay { background-image: url("../images/cars.jpg"); }
+
+#cdProjektRed { background-image:  url("../images/groupProject.jpg"); }
+
+/*flex conatiner, just another way to organize the page*/
+.flex-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 8% 2% 8%;
+    
+}
+
+.flex-container > a {
+    
+    color:antiquewhite;
+    background-color: #444;
+    width: 295.59px;
+    
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 75px;
+    
+    font-size: 30px;
+    text-decoration: none;
+    font-size:78%;
+    
+    opacity: 85%;
+    margin: 10px 10px 8px 10px;
+    padding: 2px 2px 2px 2px;
+}
+
+.flex-container > div {
+    
+    color:antiquewhite;
+    background-color: #444;
+    width: 580px;
+    
+    height: 580px;
+    border-radius: 5px;
+    text-align: center;
+    
+    line-height: 75px;
+    font-size: 30px;
+    text-decoration: none;
+    
+    font-size:78%;
+    opacity: 85%;
+    margin: 10px 10px 8px 10px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.flex-container > a:hover {
+    
+    opacity: 100%;
+    border: 1px solid skyblue;
+    transform: scale(1.1);
+    font-size:78.5%;   
+}
+
+
+/*To create an background image for the deals section */
+#ps4 {
+    
+    background-image: url("../images/ps4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+}
+#xbox {
+    
+    background-image: url("../images/xbox.png") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%; 
+
+}
+#microsoft { 
+    
+    background-image: url("../images/microsoft.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 80%; 
+}
+
+
+#reddit { 
+    background-image: url("../images/reddit.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+}
+
+#facebook { 
+    
+    background-image: url("../images/facebook.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+}
+
+#instagram { 
+    
+    background-image: url("../images/instagram.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+}
+/*For the padding of youtube links*/
+iframe {padding: 1% 1% 1% 1%;}
+
+/*For links to be a certain color*/
+a {color: antiquewhite;}

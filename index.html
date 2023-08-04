@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+    
+<head>
+    
+    <!--'Viewport' tag is added for accessibility-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--javascript 'mainMenu' is to create a responsive menu to the user's screen size-->
+    <title>CP2077 - Home</title>
+    <script type="text/javascript" src="scripts/mainMenu.js"></script>
+    <script type="text/javascript" src="scripts/countDown.js"></script>
+    
+    <!--Seperate .css files for main and subpages simply for readability
+    other .css for accessibility such as print and select screen sizes-->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" media="screen" href="styles/media.css">
+    <link rel="stylesheet" media="print" href="styles/print.css">
+    
+</head>
+    
+    
+<!--The body represents the displayed content of the site-->
+<body>
+
+    
+    <!--The lines below are meant to notify the user about the site they're on-->
+    <header>
+        <h1>CYBERPUNK 2077
+        <section>This page is dedicated to informing <br>
+            YOU on all things CYBERPUNK. <br>
+            SCROLL BELOW for the hottest topics!
+        </section>
+        </h1>
+    </header>
+        
+    
+    <!--The main menu is responsize and is to let the user navigate through select pages-->
+    <nav class="mainMenu" id="mainMenuId">
+            
+        <a href="index.html" class="active">HOME</a>
+        <a href="keanuReeves/keanuReeves.html">KEANU REEVES</a>
+        <a href="whatWeKnow/whatWeKnow.html">WHAT WE KNOW</a>
+            
+        <a href="development/development.html">DEVELOPMENT</a>
+        <a href="community/community.html">COMMUNITY</a>
+        <a href="deals/deals.html">DEALS</a>
+    
+        <a href="javascript:void(0);" class="icon" onclick="menuResponsive()">=</a>
+    
+    </nav>
+        
+    
+    <main>
+        
+        
+        <!--This 'banner' introduces the game and gives the release countdown-->
+        <section class="column" id="banner">
+            <p>
+                Cyberpunk 2077 is a Video Game Set in a Dystopian Future<br>
+                Where YOU Get to Play as a Cybernetically Enhanced Human<br>
+                RELEASE OF CYBERPUNK 2077:
+            </p>
+            
+            <p id="countDown"></p> 
+            
+        </section>
+            
+        <!--The section below highlights the most popular concepts to interest the reader-->
+        <h2>Hottest Topics ⇓⇓⇓</h2>
+        <hr>
+        
+        <nav class="row" id="article">
+            
+            
+            <a href="keanuReeves/keanuReeves.html" class="column" id="keanu">
+                
+                <p><br>
+                    Hollywood Star Keanu Reeves is Excited About His Role as<br>
+                    Johnny Silverhand in Cyberpunk 2077 || CLICK HERE For More
+                </p>
+            </a>
+
+            
+            <a href="features/features.html" class="column" id="features">
+                
+                <p><br>
+                    Cyberpunk 2077 Sets The Bar of Video Game Graphics<br>
+                    With The Implementation of Ray-Tracing || CLICK HERE For More
+                </p>
+            </a>
+            
+        </nav>
+
+        
+        <nav class="row">
+            <a href="storyline/storyline.html" class="column" id="story">
+                
+                <p><br>
+                    Have You Ever Imagined What The Future Will Be?<br>
+                    Imagine No More Now || CLICK HERE For More
+                </p>
+            </a>
+
+            
+            <a href="community/community.html" class="column" id="community"> 
+                
+                <p><br>
+                    Feeling Alone? The Cyberpunk 2077 Community Continues to Grow!<br>
+                    Grow With Them Together! || CLICK HERE For More
+                </p>
+            </a>
+        
+        </nav>
+        
+    </main>
+        
+    
+    <!--The footer is an entry to notify the user on basic details about the page-->
+    <footer>
+        
+        Last Updated: December 4, 2019 at 23:55 by Jadd || Article/Image References
+        <a href="references/references.html">HERE</a>
+        <a href="#top" id="toTop">Back to Top?</a>
+    </footer>
+
+    
+</body>
+</html>
